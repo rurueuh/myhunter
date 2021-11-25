@@ -16,7 +16,7 @@ CSFML_FLAG = -lcsfml-system -lcsfml-graphics -lcsfml-window
 all: $(NAME)
 
 $(NAME):
-	cd lib/my && make re
+	cd lib/my && make re -s
 	gcc -g $(SRC) -o $(NAME) -L ./lib/my/ -lmy $(CSFML_FLAG)
 
 clean:
