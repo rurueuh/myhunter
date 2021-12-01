@@ -7,6 +7,7 @@
 
 #include <SFML/Graphics.h>
 #include <SFML/Window.h>
+#include "mystruct.h"
 
 #ifndef header_graph
     #define header_graph
@@ -15,17 +16,21 @@
     sfSprite* ruru_create_sprite_r(char *path, int pos_x, int pos_y,
     sfIntRect r);
     sfSprite* ruru_create_sprite(char *path, int pos_x, int pos_y);
-    sfIntRect ruru_create_intrect(int left, int top, int width, int height);
     sfText* ruru_create_text(int pos_x, int pos_y, char *str, int police_size);
+    sfIntRect ruru_create_intrect(int left, int top, int width, int height);
+    sfVector2u ruru_create_vector2u(unsigned int x, unsigned int y);
+    sfVector2i ruru_create_vector2i(int x, int y);
+    sfVector2f ruru_create_vector2f(float x, float y);
 
-    sfIntRect ruru_change_intrect(sfIntRect rect, int offset_x, int offset_y);
+    void ruru_anim_3_frames(stuct_anim_duck clock, sfSprite* sprite,
+    float sec);
 
     sfBool ruru_mouse_touch_sprite(sfRenderWindow* window, sfSprite* sprite);
     sfSprite* ruru_mouse_move_cursor(sfRenderWindow* window, sfSprite* sprite);
     sfSprite* ruru_create_cursor(sfRenderWindow* window, char *path);
 
     void ruru_draw_sprite(sfRenderWindow* window, int nombre_de_sprite, ...);
-
+    
     void ruru_scale_sprite(sfSprite* sprite, float scale_x, float scale_y);
     void ruru_scale_fullscreen(sfRenderWindow* window, sfSprite* sprite);
 

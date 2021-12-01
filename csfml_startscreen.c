@@ -42,7 +42,6 @@ int move_selector(sfText* selector, sfRenderWindow* window, sfEvent event)
             return 2;
         if (pos.y == 700)
             return 1;
-        return 84;
     }
     return 0;
 }

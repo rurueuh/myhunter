@@ -1,8 +1,8 @@
 /*
 ** EPITECH PROJECT, 2021
-** create cursor
+** create window
 ** File description:
-** remove window cursor, need window, path
+** start of game
 */
 
 #include <SFML/Graphics.h>

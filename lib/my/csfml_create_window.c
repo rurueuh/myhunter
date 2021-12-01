@@ -2,7 +2,7 @@
 ** EPITECH PROJECT, 2021
 ** create window
 ** File description:
-** need witdh, height, fps, Bool (for fullscreen or not)
+** start of game
 */
 
 #include <SFML/Graphics.h>

@@ -1,8 +1,8 @@
 /*
 ** EPITECH PROJECT, 2021
-** draw all sprite
+** create window
 ** File description:
-** need window, number of sprite, sprite ... (todo able to combo with struct)
+** start of game
 */
 
 #include <SFML/Graphics.h>

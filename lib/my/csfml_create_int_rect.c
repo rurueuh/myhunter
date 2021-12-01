@@ -1,8 +1,8 @@
 /*
 ** EPITECH PROJECT, 2021
-** create Int rect
+** create window
 ** File description:
-** need X Y width height
+** start of game
 */
 
 #include <SFML/Graphics.h>

@@ -11,5 +11,5 @@
 void ruru_scale_sprite(sfSprite* sprite, float scale_x, float scale_y)
 {
     sfVector2f scale = {(float) scale_x, (float) scale_y};
-    sfSprite_scale(sprite, scale);
+    sfSprite_setScale(sprite, scale);
 }

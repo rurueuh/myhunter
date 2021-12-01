@@ -1,8 +1,8 @@
 /*
 ** EPITECH PROJECT, 2021
-** be able the cursor follow you crosshair
+** create window
 ** File description:
-** need window, and sprite of cursor (use create_cursor)
+** start of game
 */
 
 #include <SFML/Graphics.h>

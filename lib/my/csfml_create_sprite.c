@@ -1,8 +1,8 @@
 /*
 ** EPITECH PROJECT, 2021
-** create sprite
+** create window
 ** File description:
-** need path, for position X && y (if Int rect add _r)
+** start of game
 */
 
 #include <SFML/Graphics.h>
