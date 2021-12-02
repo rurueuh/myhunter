@@ -6,13 +6,17 @@
 */
 
 #include "include/my.h"
+#include <stdio.h>
+#include <time.h>
 
 void game(void);
 
-void main(int ac, char **av)
+int main(int ac, char **av)
 {
     if (ac == 1){
+        srand(time(NULL));
         game();
+        return 0;
     }
     if (av[1][0] == '-'){
         if (av[1][1] == 'h'){
@@ -20,6 +24,9 @@ void main(int ac, char **av)
             my_putstr("-a duck will move in the screen try to shoot him\n");
             my_putstr("-your score in on the left buttom\n");
             my_putstr("-take fun !\n");
+            return 0;
         }
+    } else {
+        return 1;
     }
 }
