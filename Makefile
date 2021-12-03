@@ -5,7 +5,7 @@
 ## ruru !
 ##
 
-NAME = game
+NAME =  my_hunter
 
 SRC	= *.c
 
