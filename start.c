@@ -23,7 +23,7 @@ int main(int ac, char **av)
             my_putstr("welcome to my first game rule:\n");
             my_putstr("-a duck will move in the screen try to shoot him\n");
             my_putstr("-your score in on the left buttom\n");
-            my_putstr("-take fun !\n");
+            my_putstr("-have fun ! echap for leave\n");
             return 0;
         }
     } else {
